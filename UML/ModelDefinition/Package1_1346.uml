@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b5a84aa3-4023-443d-ad8d-03085b83f485"
+  name="System"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b64d5abe-14f6-4bbf-96e6-64a58f77c327"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="3ab9dd28-c426-4de8-a34d-595ca6c40f95">
+      <profileInstance
+        Id="6f9c8175-3249-4865-ba1d-669372d0283d"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e7ce8106-3ac3-48ff-8edd-b98cb7e6df73"
+        LastKnownName="Web"
+        LastKnownLocation="Package2_1346.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+        name="Decimal"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7eb1728d-7a82-4a52-aa28-b0cd7f7b4a2d"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f333135e-78a1-4508-90b2-e747b394ece6"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="455f6da6-7e65-4540-be77-d74171bb2ff9">
+                <propertyInstance
+                  Id="473f9d0d-eb6e-4b0f-85e0-76ef01ef8208"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c21249ee-c6e2-445b-93cb-75d51503403e">
+                <propertyInstance
+                  Id="dce89910-4ec1-47eb-9e91-1a89187d9060"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76b342fb-3976-4179-a998-fe45249e24c9">
+                <propertyInstance
+                  Id="d06a53b7-88cb-4d6e-b0f6-831ea5ded95b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3cc2eebb-fde5-458d-a43c-6702aeac6095">
+                <propertyInstance
+                  Id="54b3313d-7a70-47d7-b21b-bec3de383f15"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="eb5cc761-c59b-4ab0-86c0-016fb1d9a3e1"
+        LastKnownName="Collections"
+        LastKnownLocation="Package13_1346.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

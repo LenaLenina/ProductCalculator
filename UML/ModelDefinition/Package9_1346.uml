@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7bbf68c3-b694-4de9-aa6d-011751aefc8b"
+  name="Common"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5353e250-ac28-4e39-bfa8-cc2235b1cabd"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNinject.Web.Common"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="01200889-455f-496f-9056-ddbf922c32d6"
+        name="Bootstrapper"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7c405c09-5be5-4251-a39e-0e3637220386"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2Fpackages%2FNinject.Web.Common.3.2.3.0%2Flib%2Fnet45-full%2FNinject.Web.Common.dll Namespace%3DNinject.Web.Common Type%3DBootstrapper"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="945724a8-535f-4e23-b798-d55b44b6d79d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94297b21-e83f-4eba-ae6b-a5278128bccf">
+                <propertyInstance
+                  Id="1c153957-3405-4233-9a13-a70e85220ffc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5a4dc443-bb8d-4fcc-9300-01a023c0804c">
+                <propertyInstance
+                  Id="9512ec29-ee65-4c29-be87-3edfab92b753"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca23e709-c52b-4b4e-af48-64f7f06de642">
+                <propertyInstance
+                  Id="737d5004-7cda-466d-bbdf-0aec8b3bf411"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d27593bb-d86a-439b-a752-80aff0a54ade">
+                <propertyInstance
+                  Id="1544f658-0de4-4022-bd57-816443d7a9bc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="527ac3e5-8647-4115-b076-e65700f041e1">
+                <propertyInstance
+                  Id="607c1184-ca35-416f-8f76-0f0f5a498050"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

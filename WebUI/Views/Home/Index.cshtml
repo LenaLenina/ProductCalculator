@@ -1,0 +1,16 @@
+﻿@model WebUI.Models.ViewModels.HomeIndexViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="panel panel-success text-center">
+    <div class="panel-heading">
+        <h2>Shopping cart</h2> 
+    </div>
+    <div class="panel-body">
+        <h3>Total sum @Model.Sum</h3>
+        <h3>Total sum with discount @Model.SumWithDiscount</h3>
+        @Html.ActionLink("Home", "Index", "Home", null, new { @class = "btn btn-success pull-left" })
+    </div>
+</div>

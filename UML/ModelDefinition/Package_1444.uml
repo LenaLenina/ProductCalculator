@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="ac81ddb9-02bc-4179-951e-57230f07534d"
+  name="Discount"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9a91c586-541d-4800-a6b2-3a1aa1aa2564"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebUI.Models.Calculator.Discount"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d7846f9c-f561-4f6e-aeb2-1cba03ecb2f6"
+        name="DiscountA"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="81ca6723-c461-47a7-b24a-821c11b6872e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Calculator.Discount Type%3DDiscountA"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="084088dc-330a-45de-b790-49411548249d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7dd68c20-5cd2-49f7-bed0-fa019d136986">
+                <propertyInstance
+                  Id="8d2e469a-abaa-4ab1-8768-16ada1677b7a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3303d3fc-1842-44ab-8c79-20c30a84c6be">
+                <propertyInstance
+                  Id="6473870c-8a54-4880-9817-d967901b51ae"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6b0db17-85ab-4381-bc2b-b4bcbdbf94cf">
+                <propertyInstance
+                  Id="2fd1200e-774d-4039-a4e7-c6adc58add93"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="71427583-080c-4af6-b2ea-04ff00b78b2d">
+                <propertyInstance
+                  Id="bdb1b270-fe4c-441c-af86-2bb435999d93"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99338c39-fbba-42c9-917c-4dd29e71953d">
+                <propertyInstance
+                  Id="8a03e249-6b2c-4873-a80a-4ea059081760"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="52af9330-6b27-4175-bf78-938a55f45b3c">
+            <interfaceMoniker
+              Id="692dcdaa-8eef-497c-8236-553f7da372bf"
+              LastKnownName="IDiscount"
+              LastKnownLocation="Package_1444.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4927889e-b4c5-4c87-8368-56f79db18a06"
+            name="ApplyDiscount"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="45905fd7-b430-45c8-ba2f-4f2ba6714f2e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Calculator.Discount Type%3DDiscountA Member%3D(Name%3DApplyDiscount OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c54ba141-59b8-42c5-8cde-8a8526b4779b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a39f0e46-ba64-4693-aea6-d5e07d19d9a2">
+                    <propertyInstance
+                      Id="5b504acf-2d69-4beb-bd3d-04e7b223f57c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78fa7af3-ea04-44bf-a10f-1f54349f0612">
+                    <propertyInstance
+                      Id="4f9bd7c4-0068-44b1-b121-7748e1b9ba6a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a34e38a1-c03e-4f19-89f9-3f04b872fc41">
+                    <propertyInstance
+                      Id="b5f11093-5bfd-4625-88b7-8864ae1b0034"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71e33f90-8e83-445b-b9d5-f4ee4d25deca">
+                    <propertyInstance
+                      Id="6b8bf640-cf5a-48b3-a58b-5351e65fcd7d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24eee69f-d6a4-4be5-a59e-21af9ae3ad4e">
+                    <propertyInstance
+                      Id="7468a856-388f-4116-bbc4-011c07ab184b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d43720f2-6b90-4210-ab27-bfa9acbdecb5">
+                    <propertyInstance
+                      Id="33b82a5c-de1c-473f-b3fe-f2fc4975fe68"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d9bdd384-d935-451e-b377-efc5db8b524c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1346.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7b3366f0-2f13-4991-83cb-303e715d97eb"
+                  name="price"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d413e8f0-0f2a-4474-a307-eb677425de1b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Calculator.Discount Type%3DDiscountA Member%3D(Name%3DApplyDiscount OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3Dprice"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1346.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="830b3df1-3893-45dd-aad7-68d2d178ffed"
+            name="DiscountA"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5ef2d07d-399f-4aaf-8ce1-f6f8b57e5eca"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Calculator.Discount Type%3DDiscountA Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2088aac4-a2c1-4849-8866-24df91973e10"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a9aa7d2-ebe3-472d-bd7d-48f647f0a2c0">
+                    <propertyInstance
+                      Id="cddd4b54-07c5-4ac2-a8af-c249ab9275f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f017a38-a493-44fb-94d6-5f8fe0550d56">
+                    <propertyInstance
+                      Id="58f8e790-10f7-45e5-9e9c-8aa51c9c5664"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e336148c-c447-4c41-921d-eafd6b9c34bf">
+                    <propertyInstance
+                      Id="3787c552-a3ab-48b6-9276-489fad7bca03"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a67ac553-aa13-4d4f-9737-48f478c7f501">
+                    <propertyInstance
+                      Id="5623b5e7-d9fc-4ef5-a39b-ad8953e23dcb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79bb936d-3655-4fff-84d9-cfd6142fc761">
+                    <propertyInstance
+                      Id="3f05cd57-35d6-4de0-aca7-f0a57aaf5696"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fe36eca-3fec-46ac-8d6a-39e9d8b29559">
+                    <propertyInstance
+                      Id="9c6a9c3e-a21c-4bd6-9cd6-ebe466025d57"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="692dcdaa-8eef-497c-8236-553f7da372bf"
+        name="IDiscount"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="435cf26c-b49c-4b1f-8b8c-29f06cf48d3b"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Calculator.Discount Type%3DIDiscount"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="66034943-13e4-45ed-9b8e-8cb6652591a3"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea4e0b22-4bed-4dd8-8207-496d54710397">
+                <propertyInstance
+                  Id="74976da4-50bd-4fc1-b986-a52d18a36aed"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4ae233b4-5cb6-4eb3-befd-1000178634e2">
+                <propertyInstance
+                  Id="0b035304-ab85-4193-832e-521fab7abe2f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2049713e-a92a-4412-8fa7-d5a91ea29937">
+                <propertyInstance
+                  Id="77008708-804b-4cb2-a4e8-724c1465a909"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7b22c28-a44d-4aea-9342-69b7a093320a">
+                <propertyInstance
+                  Id="423b23f3-a926-44aa-aabc-d0f738df1c76"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="73494a93-3ff4-44f4-b27b-2fd23dd2948f"
+            name="ApplyDiscount"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e6046ccf-1b61-449d-828e-689d60be640a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Calculator.Discount Type%3DIDiscount Member%3D(Name%3DApplyDiscount OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="38d049b3-e8bf-42f0-a0c9-7b5c60fb9fea"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83f0208f-cf97-4a32-81c2-2a1fa86de46f">
+                    <propertyInstance
+                      Id="4f06901a-96ed-4e0f-a269-a211fbe27d71"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a81a598f-a02d-45d0-a775-6f80745531dd">
+                    <propertyInstance
+                      Id="544cb99d-1ec2-45a9-987b-ac9a48967681"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="220eda44-7693-4f9e-926e-a17813d72493">
+                    <propertyInstance
+                      Id="f07ac1d2-bd6f-47b8-9f1f-b11e5a0ed89f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a30873f1-122d-4782-a5e8-8430731d28c8">
+                    <propertyInstance
+                      Id="edd3ad18-5a6d-4b5a-b4da-310275b28b8e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b9304e7-be78-4318-93ed-cc8cfe16b256">
+                    <propertyInstance
+                      Id="6ce8de59-6b28-49d0-8023-89443ad0210b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfece39c-38c9-480d-9d4a-50a2fa86f95d">
+                    <propertyInstance
+                      Id="c37f0325-ff84-4b92-82cd-0b1639ab93fd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e48fd5c6-4b62-4726-a57c-3079e11ed26d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1346.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e0f4ed88-bb46-45ac-a896-9ae9deb2eb09"
+                  name="price"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0ae484ec-78d9-418e-9117-70f795086dd1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Calculator.Discount Type%3DIDiscount Member%3D(Name%3DApplyDiscount OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DDecimal)]) ParameterIdentifier%3Dprice"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_1346.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

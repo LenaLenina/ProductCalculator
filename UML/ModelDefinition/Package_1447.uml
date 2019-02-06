@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="311703a9-d176-4228-9308-dac92b190ae8"
+  name="ViewModels"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8cabd9f5-ba9d-4d85-a741-f7845f1a2e29"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebUI.Models.ViewModels"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="cec0ddd0-b6e2-41ac-ba9e-59c49721a279"
+        name="HomeIndexViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="41dff429-cdda-4943-b2e8-bd4cd6639382"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.ViewModels Type%3DHomeIndexViewModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3e292a40-d99e-4d26-bf27-88b6db52f762"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f04ca7f3-ccce-442f-a280-bb61f3e05ddc">
+                <propertyInstance
+                  Id="547a5664-84fd-480d-bb6d-97fd81817499"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74bd6503-da76-4027-87ed-0abeb3962a28">
+                <propertyInstance
+                  Id="b8975d5f-af51-481b-a31d-baddbda98512"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d71a40a-2cfe-47f3-a79e-74626dec7284">
+                <propertyInstance
+                  Id="f15c738a-ba91-4633-ab92-d49149007e4d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54bdb496-086d-4457-9ebb-c0fe9ac5d520">
+                <propertyInstance
+                  Id="316e2331-01c2-48ac-9861-7c0549c6d7fa"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d907fde1-fdc2-4e21-a2ea-32a8cc3c7480">
+                <propertyInstance
+                  Id="0d84432c-eb6a-45c2-8c54-5c09fed5f927"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="06ffbf7a-b5d4-43ef-b1bb-6548035eb38e"
+            isDerived="false"
+            sourceEndRoleName="HomeIndexViewModel"
+            targetEndRoleName="Sum"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+              LastKnownName="Decimal"
+              LastKnownLocation="Package1_1346.uml" />
+            <description>Свойство Sum ссылается на тип Decimal.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d34576e0-6f75-4f0f-bc12-232b0d6f2fde"
+                  name="HomeIndexViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d146925a-3ff9-496a-8163-13c42da7b61a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e8a4f046-5e1c-4ed7-afd5-ab132129f154"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f3108a6f-0b3a-42bf-90ca-464db56d06a8"
+                  name="Sum"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="64a8b2ce-23dc-4f77-bba5-2b737fa3fe81"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9cbabc79-f7b8-4bb8-a73a-562f9419d159"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0384ec9c-76eb-4027-aaca-160ab6b125e9"
+            isDerived="false"
+            sourceEndRoleName="HomeIndexViewModel"
+            targetEndRoleName="SumWithDiscount"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+              LastKnownName="Decimal"
+              LastKnownLocation="Package1_1346.uml" />
+            <description>Свойство SumWithDiscount ссылается на тип Decimal.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6607bdd3-c024-4ad2-855c-c34ad7483836"
+                  name="HomeIndexViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d16fe0e0-75f7-4350-818b-141539454ece"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="02ba04b9-761b-4885-99e5-417380a08e40"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="03cc436b-bccf-4bd1-8c16-0eb79ec38029"
+                  name="SumWithDiscount"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ba6190bb-b78f-4147-a742-c2d1054b6932"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="30c2310d-86ad-4d42-a1b5-066e159e648b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="d655f0d5-f216-445c-8be8-c4d9e98a3b3c"
+            name="Sum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b6ede795-d6cb-4bbb-8e64-e70846cac566"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.ViewModels Type%3DHomeIndexViewModel Member%3DSum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e5beb765-cc4e-426c-ab3a-5b0156ee32f5"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf74f125-1626-44ef-9417-e44442674256">
+                    <propertyInstance
+                      Id="a67f2d06-e33b-45fd-badb-c83c579580ef"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="955e34a6-dae7-4f20-a5c1-2527f7a1ee2b">
+                    <propertyInstance
+                      Id="48040f3e-9b12-41b0-bde3-d11956603c5e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19c826a3-4d7d-4257-aa98-89569f0a285f">
+                    <propertyInstance
+                      Id="bb1d6b89-410c-4c3c-94b2-629c4271cc55"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a5935da-56b5-41ea-9e61-271bfd4cc345">
+                    <propertyInstance
+                      Id="cc56c93d-39e2-40c4-be99-2f949df950de"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dc651cf-d8d2-4d94-827c-cb87890c1abf">
+                    <propertyInstance
+                      Id="c7835e5d-36e5-4fdb-bb85-4d13e035007a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d5d8999-eb5b-4bfa-97e5-3fc2b8b818b5">
+                    <propertyInstance
+                      Id="1cab2eaa-6e4f-43aa-9ef6-5d700db367f9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0e1286c-869f-4f56-af0d-9835430175d9">
+                    <propertyInstance
+                      Id="d066638e-719d-40d4-bad7-a88c3411b165"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1346.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="98c99893-816f-4fa6-a666-2bd1e5a56067"
+            name="SumWithDiscount"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0d253061-1341-4589-af10-7bad57d4f1f4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.ViewModels Type%3DHomeIndexViewModel Member%3DSumWithDiscount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6b560aed-84b8-4ea2-9dcf-a679f2257e7c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf1f43e8-6738-4629-8d16-1bec6508fc9c">
+                    <propertyInstance
+                      Id="e1488729-b430-4b60-b802-110c3fe822d9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="224ac8ca-5e07-4a5d-83b8-924824942cde">
+                    <propertyInstance
+                      Id="bee8fd19-716f-448b-9533-5430baa5b729"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f84d64e-624a-4efd-97ce-22a178599245">
+                    <propertyInstance
+                      Id="65c890b0-5b60-4df6-931a-2a302ddfc41c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fbf9117-f0e9-40a3-a65a-87ff418ea0b6">
+                    <propertyInstance
+                      Id="4a4481c2-9237-4d42-9fee-d84c82962bfd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb3dac35-e85e-49d6-aa6c-2985538bd2fc">
+                    <propertyInstance
+                      Id="81a9b593-453e-410f-9960-5cac77f11540"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="573e1eb4-aacf-4c8f-aa64-fb0544acea02">
+                    <propertyInstance
+                      Id="8bdcefcc-0550-4e17-ac00-2c832618a22d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a35dc9e2-61e2-4d88-9148-d3846e3bed17">
+                    <propertyInstance
+                      Id="119b52e4-b1e6-4683-97ce-e10781fa620c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1346.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="63079016-8049-439e-9892-296ded5a6a4d"
+            name="HomeIndexViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="06eb5af7-08c4-4f1c-98e6-e0c1fe4885c9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.ViewModels Type%3DHomeIndexViewModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bbecce64-a3b5-41af-a9ec-67d82feb5b47"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a395658-8a93-4058-b0a6-3b7e79f74d81">
+                    <propertyInstance
+                      Id="fa5cfd99-718c-4067-98ec-b91f55c5aceb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16bcc53d-8396-4d15-866d-0fd93ea9fd4c">
+                    <propertyInstance
+                      Id="443cfd8a-c43e-4757-a8fa-f5192696ce21"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f80dc62-45b3-43c6-be45-b1283a52aea5">
+                    <propertyInstance
+                      Id="cab429bd-f632-40d3-a502-d19613b13de7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ada951c-073e-495f-b02d-e3c2d53681f1">
+                    <propertyInstance
+                      Id="d6b29a98-71eb-4570-b3c9-5e9b47c8d66e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9440177b-f99c-411c-8f59-641814e0a9bb">
+                    <propertyInstance
+                      Id="98c84bbf-54f3-43b3-9578-15caf571e882"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0bd2a98-91e4-430c-b901-0b1086cb772e">
+                    <propertyInstance
+                      Id="d9852173-1982-45ad-857d-cf2f1def37d5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f3f66626-6e27-4149-b96f-71f6838fde00"
+  name="Entities"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8989a78b-9d5a-4013-bb12-689f5c4ca5dd"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebUI.Models.Entities"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="7174b3cf-15d5-4d0a-bb4c-b5f5f62d839c"
+        name="Product"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a745d874-faa4-4e03-a2d2-bd1dad61177c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Entities Type%3DProduct"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a6e14b09-d87d-4e7d-858d-1c0e89480f14"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9f7bf47-10da-42cb-a1c7-ccb6613daca7">
+                <propertyInstance
+                  Id="8e53b110-415d-43ac-a6eb-226f588a5508"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c6b9054-9d98-43c1-8c29-fb63913bd4ea">
+                <propertyInstance
+                  Id="fb368c6f-df68-4503-838e-aa392ee0777c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04bc1bcd-3fd7-44a1-8630-bf5eeaed8e6a">
+                <propertyInstance
+                  Id="c9288d01-70a7-4d62-b8aa-b22dcb3db05e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c306a765-4469-4c4e-abb7-509f5c679d25">
+                <propertyInstance
+                  Id="01584604-425f-4e5f-bdac-9bcb7c9a544c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="47b99c50-fd0d-4d9d-af33-fcb11b4e0a0c">
+                <propertyInstance
+                  Id="31f44eca-0ba0-47c0-9a47-58ba9aaeeccc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="ec327410-afe0-4256-a451-b784a57ec1bc"
+            isDerived="false"
+            sourceEndRoleName="Product"
+            targetEndRoleName="Price"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+              LastKnownName="Decimal"
+              LastKnownLocation="Package1_1346.uml" />
+            <description>Свойство Price ссылается на тип Decimal.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cd333262-3f32-4f5e-8f0b-2a7b80023997"
+                  name="Product"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ef1e38ca-06bc-417d-8647-a72c87f20a83"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e9310c51-4642-45bb-b325-3fab218f7a8c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a0549078-ca1b-4d13-a297-4ccb69ae8b48"
+                  name="Price"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="eab69c51-e3b4-49b1-b6a4-629923dd0f82"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c287b5ae-990c-4c12-a2b5-d0e673437505"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="e59b6048-85d1-4bf1-abe1-b5bf69f57979"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8b51f4e9-b249-4ba3-8e9e-3052ae0b9fd8"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Entities Type%3DProduct Member%3DId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a21fc8cf-884b-4d54-8fa4-a9b435685a25"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c02f9d02-87fa-45ca-925b-c41190ed34ac">
+                    <propertyInstance
+                      Id="e83f005f-42b7-403c-809e-70985fd51ae9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98cdccb5-d3a3-45d5-931c-e4c024968cd2">
+                    <propertyInstance
+                      Id="de3607ef-fa4f-4f90-a878-c8c02cfb1c9a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e7e1dae-10e1-4839-9a19-3398d67e21fc">
+                    <propertyInstance
+                      Id="8ce6b10d-13ea-46fd-a3c5-d3ebe4645cef"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76c8205c-e4ab-48ba-bd6a-bef175d0e29f">
+                    <propertyInstance
+                      Id="d6424ead-9db3-4b68-b0f9-4e51fad547d8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc40fea2-0110-4280-a1b1-64865eb5a466">
+                    <propertyInstance
+                      Id="3e607524-784c-4732-b401-f4934eb53b98"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f513662c-e623-4ada-9961-d96b5818e8c3">
+                    <propertyInstance
+                      Id="6068c265-6c2a-45aa-ba43-5f204f07c983"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2f032e3-2e46-4e76-b520-e35124738a2c">
+                    <propertyInstance
+                      Id="f0f93a4d-b0f4-43f2-ae5d-1abdd9dd9b7c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="UML.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5063da99-ad55-46e0-b02f-464a894420d0"
+            name="Price"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="549e4404-2d81-4b5a-8047-05e477fac453"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Entities Type%3DProduct Member%3DPrice"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1d1d2e38-1221-41d6-928a-96fce5552e5c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebe56f61-8257-4c41-b534-ae2cd69e7790">
+                    <propertyInstance
+                      Id="42d2d327-5f66-4a93-8679-97cee61d2946"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d382629-1f8e-4c62-8988-d35d7c3e9c30">
+                    <propertyInstance
+                      Id="bffcae35-0ec5-4cf8-b3aa-2c5068eb48b9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59c3893d-97dc-4e19-a73e-53f5a4bf5da4">
+                    <propertyInstance
+                      Id="74612ae8-43da-4423-b0dd-a45417c9dd89"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="819d2676-9fd3-4deb-a1e3-97618ed1d641">
+                    <propertyInstance
+                      Id="d8e6be0c-9922-4f08-a73c-cc900d30dd6a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88f7866c-9d2f-4969-83ef-e0e3c6154a84">
+                    <propertyInstance
+                      Id="6b3c53d2-e16e-47eb-ac88-39f7a7d712ca"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b578a414-6ccc-4de0-bd1f-8721cae05509">
+                    <propertyInstance
+                      Id="6489ab75-e36a-4f29-b6bf-5f2892777972"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="602d6c6f-a3f9-44c4-8e93-ad17474f1f81">
+                    <propertyInstance
+                      Id="16f613b2-0828-4237-b24d-74c1b034ec9a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c9e1ec0a-706e-4bef-a4fe-0c4ab222bfe2"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1346.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4556c348-0352-453a-b3b8-7e2dab5e9c2e"
+            name="Product"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f4b2566a-9206-4965-bae5-c335e5726c9a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fldg%2FDesktop%2FProductsCalculator%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models.Entities Type%3DProduct Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5f85b652-cd55-4b3a-b6b5-403f64bd9cfd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f3e5003-ae8f-471f-9a74-62b9d2074004">
+                    <propertyInstance
+                      Id="be7cef73-7034-4091-87c4-6b7babd9888a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b712c1f-ddcb-4aa2-b83f-cff5b4f22e0e">
+                    <propertyInstance
+                      Id="d0c73c30-3e6d-4992-876f-f52c01be84e6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf20f99f-eef4-4df6-8a00-056f0e4bb0e3">
+                    <propertyInstance
+                      Id="d9d59989-0650-4846-a995-57950f5d866a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e936773-a8ef-4fef-8a44-5e8b88979ab8">
+                    <propertyInstance
+                      Id="39078c50-038e-4bf0-ba27-e5e4e2246e0b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a12aa31-b73b-4ae5-88e6-9b85186831d4">
+                    <propertyInstance
+                      Id="9177f565-67eb-4b14-af6e-a7bddccaa6f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a28fbeec-d8d3-4b26-ba03-97503f1101f6">
+                    <propertyInstance
+                      Id="164de02c-3723-4ff0-9da8-d29eecea2554"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

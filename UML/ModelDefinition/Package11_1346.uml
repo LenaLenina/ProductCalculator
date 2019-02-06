@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="68964d7e-e75d-4acb-a974-de08570944ec"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3872e72d-e88e-4fab-a6bb-ff42dc24a01d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebUI.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1b0bf901-74e3-4c6d-a9ff-31b8a9928943"
+        LastKnownName="Calculator"
+        LastKnownLocation="Package12_1346.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f3f66626-6e27-4149-b96f-71f6838fde00"
+        LastKnownName="Entities"
+        LastKnownLocation="Package15_1346.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3254cb60-9805-4143-87e2-431eb53b95f4"
+        LastKnownName="Repository"
+        LastKnownLocation="Package16_1346.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="311703a9-d176-4228-9308-dac92b190ae8"
+        LastKnownName="ViewModels"
+        LastKnownLocation="Package_1447.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
